@@ -28,6 +28,6 @@ ls -i | grep "sudoers"
 
 The *ls -i* is used to list the file name and their corresponding inode/index number. Since /etc contains a lot of files, I have used *grep* to only list files that have sudoers in their name, which gives us our answer.
 
-**Answers:**
-A) .bash_history
+**Answers:** <br>
+A) .bash_history <br>
 A) 147627

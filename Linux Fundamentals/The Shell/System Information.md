@@ -38,3 +38,12 @@ Looking back at the *uname --help* command, we see that we need to use the *-r* 
 Using the *ifconfig* to list the network interfaces for the system, we see that only one has an MTU of 1500.
 
 ![Image](https://github.com/user-attachments/assets/27895ef5-b4a7-4d2b-8db0-32e1e02d601c)
+
+
+**Answers:** <br>
+A) x86_64 <br>
+A) /home/htb-student <br>
+A) /var/mail/htb-student<br>
+A) /bin/bash<br>
+A) 4.15.0<br>
+A) ens192<br>
