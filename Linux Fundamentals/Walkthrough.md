@@ -13,7 +13,6 @@ By digging further into the command using the *--help* flag, we can see that we 
 
 
 **Q) What is the path to htb-student's home directory?**
-
 Using the *pwd* gives the path to htb-student's home directory.
 
 ![Image](https://github.com/user-attachments/assets/db8df2cb-cd9d-41fb-bdba-08c8fd42fb3f)
@@ -25,8 +24,17 @@ Echoing the *$MAIL* environmental variable gives the answer.
 
 
 **Q) Which shell is specified for the htb-student user?**
+Echoing the *$SHELL* environmental variable gives the answer.
 
+![Image](https://github.com/user-attachments/assets/55a299ac-73bf-44d0-b52b-9b48a72f5e7c)
 
 **Q) Which kernel release is installed on the system? (Format: 1.22.3)**
+Looking back at the *uname --help* command, we see that we need to use the *-r* flag.
+
+![Image](https://github.com/user-attachments/assets/574a8693-4e63-4dfd-8dd9-03b0ccb33b64)
 
 **Q) What is the name of the network interface that MTU is set to 1500?**
+
+Using the *ifconfig* to list the network interfaces for the system, we see that only one has an MTU of 1500.
+
+![Image](https://github.com/user-attachments/assets/27895ef5-b4a7-4d2b-8db0-32e1e02d601c)
