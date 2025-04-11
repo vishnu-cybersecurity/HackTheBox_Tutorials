@@ -32,7 +32,7 @@ find / -type f -name *.bak 2> /dev/null
 
 We can see that we have 4 files with *.bak extension*.
 
-![Image](https://github.com/user-attachments/assets/437464dc-8c16-4e0d-b5b8-102c022f28d6)
+![Image](https://github.com/user-attachments/assets/9388cf54-b807-42e5-ad8b-64f444197cfc)
 
 
 **Answers:** <br>
