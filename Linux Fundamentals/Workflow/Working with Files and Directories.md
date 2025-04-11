@@ -7,7 +7,7 @@ We first login with the given credentials to access the excercise.
 
 We first navigate to the required directory using the *pwd command*. Taking help from https://linuxcommandlibrary.com/man/ls , we can understand the flags to be used.
 
-The *-l* is used to list the files and *-t* is used to sort based on time the file was modified.
+The *-l* is used to list the files and *-t* is used to sort based on time the file was modified. The first file will indicate the last modified file.
 
 ```bash
 cd /var/backups
@@ -27,6 +27,6 @@ ls -i | grep shadow.bak
 
 ![Image](https://github.com/user-attachments/assets/2f34fa45-500f-4e03-8c93-b22c06057ab6)
 
-**Answers:**
-A) apt.extended_states.0
+**Answers:** <br>
+A) apt.extended_states.0 <br>
 A) 265293
