@@ -27,19 +27,20 @@ Looking at the URL gives the answer.
 Since I don't have any credentials to work with, I searched *tomcat default credentials* in Google, that ultimately directed me to https://github.com/netbiosX/Default-Credentials/blob/master/Apache-Tomcat-Default-Passwords.mdown.
 
 I created 2 files, *username.txt and password.txt* using the terminal.
+
 ![Image](https://github.com/user-attachments/assets/82ac9d06-d5dc-48a8-b62d-cd4a6c6312c8)
 
 ![Image](https://github.com/user-attachments/assets/cb7ff244-e386-4bf3-ac71-7576dd1cce3a)
 
-I then used Metasploit to brute force the credentials.
+I then used Metasploit to brute-force the credentials.
 
 ![Image](https://github.com/user-attachments/assets/ded6db70-5be1-439c-8502-1efee98d66bb)
 
-Typign *search tomcat* gives the following.
+Typing *search tomcat* gives the following.
 
 ![Image](https://github.com/user-attachments/assets/854a18f6-5c00-47cc-acd2-c58e0bcf5337)
 
-I selected module 64 by using *use 64* command. I then used show options to see the arguments to be set. 
+I selected module 64 by using *use 64* command. I then used *show options* to see the arguments to be set. 
 
 ![Image](https://github.com/user-attachments/assets/5ad42fd9-35f0-4f74-b444-7f3e31658447)
 ![Image](https://github.com/user-attachments/assets/42053a03-ab28-4aa6-83c7-2731dbc1905a)
@@ -62,11 +63,11 @@ Scrolling down, I see that *war* is the only file that can be deployed.
 
 Using the same picture as before, I used module 18.
 
-![Image](https://github.com/user-attachments/assets/854a18f6-5c00-47cc-acd2-c58e0bcf5337)
-
-![Image](https://github.com/user-attachments/assets/b34b1a60-6977-4bc9-902a-7f0f4460a19a)
+![Image](https://github.com/user-attachments/assets/6632dec3-c7e0-48a7-b6e8-23f3cd848789)
 
 I then set the relevant options.
+
+![Image](https://github.com/user-attachments/assets/b34b1a60-6977-4bc9-902a-7f0f4460a19a)
 
 ![Image](https://github.com/user-attachments/assets/f8d533b3-b69f-4971-a532-8ed26106209a)
 
