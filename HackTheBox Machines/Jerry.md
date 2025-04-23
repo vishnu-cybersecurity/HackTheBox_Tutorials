@@ -24,7 +24,7 @@ Looking at the URL gives the answer.
 
 **Q) What is the valid username and password combination for authenticating into the Tomcat Web Application Manager? Give the answer in the format of username:password**
 
-Since I don't have any credentials to work with, I searched *tomcat default credentials* that ultimately directed me to https://github.com/netbiosX/Default-Credentials/blob/master/Apache-Tomcat-Default-Passwords.mdown.
+Since I don't have any credentials to work with, I searched *tomcat default credentials* in Google, that ultimately directed me to https://github.com/netbiosX/Default-Credentials/blob/master/Apache-Tomcat-Default-Passwords.mdown.
 
 I created 2 files, *username.txt and password.txt* using the terminal.
 ![Image](https://github.com/user-attachments/assets/82ac9d06-d5dc-48a8-b62d-cd4a6c6312c8)
